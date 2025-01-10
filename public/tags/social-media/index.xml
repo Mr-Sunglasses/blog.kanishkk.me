@@ -1,64 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Terminal</title>
-    <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on Terminal</description>
+    <title>Social-Media on Terminal</title>
+    <link>//localhost:1313/tags/social-media/</link>
+    <description>Recent content in Social-Media on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>blogtitle</title>
-      <link>//localhost:1313/posts/my-obsedian-blog/</link>
-      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/my-obsedian-blog/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;People said I should accept the world. Bullshit! I don&amp;rsquo;t accept the world. - Richard M. Stallman&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;the-self-hosting-manifesto&#34;&gt;The Self-Hosting Manifesto&lt;/h2&gt;
-&lt;p&gt;In a world of convenient cloud services and platform dependencies, we choose a different path:&lt;/p&gt;
-&lt;h3 id=&#34;our-principles&#34;&gt;Our Principles&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Independence:&lt;/strong&gt; We rely on our own Linux machines, not external platforms.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Skill Cultivation:&lt;/strong&gt; What others see as a &amp;ldquo;skill issue,&amp;rdquo; we see as an opportunity for growth.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time Investment:&lt;/strong&gt; We value long-term control over short-term convenience.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;our-philosophy&#34;&gt;Our Philosophy&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Self-hosting isn&amp;rsquo;t just about saving time;
-it&amp;rsquo;s about owning our digital destiny.&amp;rdquo;&lt;/p&gt;</description>
-      <content>&lt;blockquote&gt;
-&lt;p&gt;People said I should accept the world. Bullshit! I don&amp;rsquo;t accept the world. - Richard M. Stallman&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;the-self-hosting-manifesto&#34;&gt;The Self-Hosting Manifesto&lt;/h2&gt;
-&lt;p&gt;In a world of convenient cloud services and platform dependencies, we choose a different path:&lt;/p&gt;
-&lt;h3 id=&#34;our-principles&#34;&gt;Our Principles&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Independence:&lt;/strong&gt; We rely on our own Linux machines, not external platforms.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Skill Cultivation:&lt;/strong&gt; What others see as a &amp;ldquo;skill issue,&amp;rdquo; we see as an opportunity for growth.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time Investment:&lt;/strong&gt; We value long-term control over short-term convenience.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;our-philosophy&#34;&gt;Our Philosophy&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Self-hosting isn&amp;rsquo;t just about saving time;
-it&amp;rsquo;s about owning our digital destiny.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;our-toolbox&#34;&gt;Our Toolbox&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Computer:&lt;/strong&gt; That can Run Linux&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Linux:&lt;/strong&gt; Our foundation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Open-source software:&lt;/strong&gt; Our building blocks&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Curiosity:&lt;/strong&gt; Our most valuable asset&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;our-reward&#34;&gt;Our Reward&lt;/h3&gt;
-&lt;p&gt;Mastery over our digital environment, unmatched privacy, and the satisfaction of true ownership.
-&lt;em&gt;Remember: Every service you self-host is a vote for digital sovereignty.&lt;/em&gt;
-123
-124 ***&lt;/p&gt;
-</content>
-    </item>
-    
+    <lastBuildDate>Wed, 06 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Social Media Scares Me.</title>
       <link>//localhost:1313/posts/the-social-media/</link>
