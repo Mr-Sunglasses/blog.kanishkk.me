@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>It isn&#39;t yours if it isn&#39;t on your machine, ft. my self-hosted blog ? :: Terminal</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content=" People said I should accept the world. Bullshit! I don&rsquo;t accept the world. - Richard M. Stallman
+!
+The Self-Hosting Manifesto In a world of convenient cloud services and platform dependencies, we choose a different path:
+Our Principles Independence: We rely on our own Linux machines, not external platforms. Skill Cultivation: What others see as a &ldquo;skill issue,&rdquo; we see as an opportunity for growth. Time Investment: We value long-term control over short-term convenience. Our Philosophy &ldquo;Self-hosting isn&rsquo;t just about saving time; it&rsquo;s about owning our digital destiny.&rdquo;
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/selfhosted-101/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.4881f0c525f3ce2a1864fb6e96676396cebe1e6fcef1933e8e1dde7041004fb5.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.4b367d85d0d0061435650561285afed36c46a7cf8dc6d7ed5642d98e589fa622.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="It isn&#39;t yours if it isn&#39;t on your machine, ft. my self-hosted blog ?">
+<meta property="og:description" content=" People said I should accept the world. Bullshit! I don&rsquo;t accept the world. - Richard M. Stallman
+!
+The Self-Hosting Manifesto In a world of convenient cloud services and platform dependencies, we choose a different path:
+Our Principles Independence: We rely on our own Linux machines, not external platforms. Skill Cultivation: What others see as a &ldquo;skill issue,&rdquo; we see as an opportunity for growth. Time Investment: We value long-term control over short-term convenience. Our Philosophy &ldquo;Self-hosting isn&rsquo;t just about saving time; it&rsquo;s about owning our digital destiny.&rdquo;
+" />
+<meta property="og:url" content="/posts/selfhosted-101/" />
+<meta property="og:site_name" content="Terminal" />
+
+  <meta property="og:image" content="/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-11-06 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+        
+          <li><a href="/tags">Tags</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+        <li>
+          <ul class="menu">
+            <li class="menu__trigger">Show more&nbsp;▾</li>
+            <li>
+              <ul class="menu__dropdown">
+                
+                  
+                    <li><a href="/tags" >Tags</a></li>
+                  
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/selfhosted-101/">It isn&rsquo;t yours if it isn&rsquo;t on your machine, ft. my self-hosted blog ?</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-11-06</time></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/selfhosting/">selfhosting</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <blockquote>
+<p>People said I should accept the world. Bullshit! I don&rsquo;t accept the world. - Richard M. Stallman</p>
+</blockquote>
+<p>!<img src="/images/stallman-thumb.png" alt="Image Description"></p>
+<h2 id="the-self-hosting-manifesto">The Self-Hosting Manifesto<a href="#the-self-hosting-manifesto" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>In a world of convenient cloud services and platform dependencies, we choose a different path:</p>
+<h3 id="our-principles">Our Principles<a href="#our-principles" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ol>
+<li><strong>Independence:</strong> We rely on our own Linux machines, not external platforms.</li>
+<li><strong>Skill Cultivation:</strong> What others see as a &ldquo;skill issue,&rdquo; we see as an opportunity for growth.</li>
+<li><strong>Time Investment:</strong> We value long-term control over short-term convenience.</li>
+</ol>
+<h3 id="our-philosophy">Our Philosophy<a href="#our-philosophy" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<blockquote>
+<p>&ldquo;Self-hosting isn&rsquo;t just about saving time;
+it&rsquo;s about owning our digital destiny.&rdquo;</p>
+</blockquote>
+<h3 id="our-toolbox">Our Toolbox<a href="#our-toolbox" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Computer:</strong> That can Run Linux</li>
+<li><strong>Linux:</strong> Our foundation</li>
+<li><strong>Open-source software:</strong> Our building blocks</li>
+<li><strong>Curiosity:</strong> Our most valuable asset</li>
+</ul>
+<h3 id="our-reward">Our Reward<a href="#our-reward" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Mastery over our digital environment, unmatched privacy, and the satisfaction of true ownership.</p>
+<p><em>Remember: Every service you self-host is a vote for digital sovereignty.</em></p>
+<hr>
+<p>I&rsquo;m a fan of self-hosting and prefer to use my Linux machine for services that other platforms offer, as I can easily manage them myself. I view it as a matter of skill rather than just a time-saving measure, as I have a lot of curiosity about how things work. Last month, I discovered an old Raspberry Pi Model B Rev 2<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> in my electronics box . Although it&rsquo;s a very old model with the following specs:</p>
+<!-- raw HTML omitted -->
+<p>!<img src="/images/Pasted%20image%2020250110105930.png" alt="Image Description"></p>
+<pre tabindex="0"><code>OS: Raspbian GNU/Linux 12 (bookworm) armv6l 
+Host: Raspberry Pi Model B Rev 2 
+Kernel: 6.6.31+rpt-rpi-v6 
+Uptime: 1 day, 10 hours, 59 mins 
+Packages: 847 (dpkg) 
+Shell: bash 5.2.15 
+Terminal: /dev/pts/0 
+CPU: BCM2835 (1) @ 700MHz 
+Memory: 32MiB / 174MiB 
+</code></pre><p>I realized that while it may not be powerful, it could still be useful. So, I came up with the idea of using it to host my blog. I want to share the process of how I set it up to host the blog you&rsquo;re reading now.</p>
+<p>We are going to host <a href="https://github.com/xenocrat/chyrp-lite">chyrp-lite</a> which is <em>an ultra-lightweight blogging engine</em> on a Ubuntu based machine ( You can use any linux based machine )</p>
+<h2 id="prerequisites">Prerequisites<a href="#prerequisites" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Working Machine</li>
+<li>Active Internet ( 24/7 )</li>
+<li>Active Power Supply ( 24/7 )</li>
+</ul>
+<h3 id="step---1--setup-secure-shell-ssh-access-to-your-server-">Step - 1 ( Setup Secure Shell (SSH) access to your server )<a href="#step---1--setup-secure-shell-ssh-access-to-your-server-" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p><strong>1. Install SSH server:</strong></p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt-get install openssh-server
+</code></pre><p>Now after this you are good to go, you can connect to your server using <code>ssh username@MachineIPAddress</code>, make sure both the device should be connected to the same <a href="https://en.wikipedia.org/wiki/Local_area_network">LAN</a></p>
+<p>To find the IP address of the machine, use the command <code>hostname -I</code> , it usually starts with <code>192.XXX.XX.XXX</code> .</p>
+<h3 id="step---2--configure-the-firewall-">Step - 2 ( Configure the firewall )<a href="#step---2--configure-the-firewall-" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Why we are using firewall ? because it provide protection against outside cyber attackers by shielding your computer or network from malicious or unnecessary network traffic , to know more about it, refer to this <a href="https://www.cisa.gov/news-events/news/understanding-firewalls-home-and-small-office-use">article</a></p>
+<p><strong>1. Install UFW:</strong></p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt install ufw
+</code></pre><p><strong>2. Allow SSH (port 22):</strong></p>
+<pre tabindex="0"><code>sudo ufw allow 22/tcp
+sudo ufw allow OpenSSH
+</code></pre><p><strong>3. Allow HTTP (port 80):</strong></p>
+<pre tabindex="0"><code>sudo ufw allow 80/tcp
+sudo ufw allow 80
+</code></pre><p><strong>4. Allow HTTPS (port 443):</strong></p>
+<pre tabindex="0"><code>sudo ufw allow 443
+</code></pre><p><strong>5. Allow both HTTP and HTTPS:</strong></p>
+<pre tabindex="0"><code>sudo ufw allow 80,443/tcp
+</code></pre><p><strong>6. Allow WWW Full profile:</strong></p>
+<pre tabindex="0"><code>sudo ufw allow &#34;WWW Full&#34;
+</code></pre><p><strong>7. Enable the firewall:</strong></p>
+<pre tabindex="0"><code>sudo ufw enable
+</code></pre><p><strong>8. Verify the rules:</strong></p>
+<pre tabindex="0"><code>sudo ufw status verbose
+</code></pre><h3 id="step---3--setup-the-web-server-">Step - 3 ( Setup the Web-Server )<a href="#step---3--setup-the-web-server-" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>We need to setup a web server, but why ? Okay, imagine you have a bunch of cool pictures and stories you want to show to all your friends, even when they&rsquo;re at their own houses. A web server is like a magic box that lets you put those pictures and stories on the internet so anyone can see them from their computer or phone. It&rsquo;s like having a big bulletin board that&rsquo;s visible to the whole world! or in more technical details, The primary function of Web Server is to store, process and serve the web pages to the clients. It uses HTTP protocol to bring the user the webpage he wants to see. <em>We are installing Apache web server</em> , again but why Apache ref. <a href="https://serverguy.com/what-is-apache-web-server/">What is apache web server</a></p>
+<p><strong>1. Installing Apache</strong></p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt install apache2
+</code></pre><p>After letting the command run, all required packages are installed and we can test it out by typing in our IP address for the web server.</p>
+<p>!<img src="/images/Pasted%20image%2020250110111217.png" alt="Image Description"></p>
+<p>If you see the page above, it means that Apache has been successfully installed on your server!</p>
+<h3 id="step---4--setup-the-database-">Step - 4 ( Setup the Database )<a href="#step---4--setup-the-database-" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Now we need to setup a database on our machine but why we need a Database? In simple words, the Database is the place in which we store the data of our blog, safely and securely, Some good articles that would help you to understand <a href="https://blog.airtable.com/what-is-a-database/">What is a Database and why we need one.</a></p>
+<p>There are a lot of databases out there but we are using <a href="https://www.mysql.com/">MySQL</a> , you can know all about MySQL and it&rsquo;s all features here ref. <a href="https://www.oracle.com/in/mysql/what-is-mysql/">What is MySQL</a></p>
+<p><strong>1. Installing MySQL</strong></p>
+<pre tabindex="0"><code>sudo apt update
+sudo apt install mysql-server
+</code></pre><p><strong>2. Ensure that the server is running</strong></p>
+<pre tabindex="0"><code>sudo systemctl start mysql.service
+</code></pre><p><strong>3. Configuring MySQL</strong></p>
+<pre tabindex="0"><code>sudo mysql_secure_installation
+</code></pre><p><strong>4. Testing MySQL</strong></p>
+<pre tabindex="0"><code>sudo systemctl status mysql.service
+</code></pre><p>You&rsquo;ll see output similar to the following:</p>
+<pre tabindex="0"><code>mysql.service - MySQL Community Server
+ Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+ Active: active (running) since Tue 2024-04-21 11:56:48 IST; 6min ago
+ Main PID: 10382 (mysqld)
+ Status: &#34;Server is operational&#34;
+ Tasks: 39 (limit: 1137)
+ Memory: 370.0M
+ CGroup: /system.slice/mysql.service
+ ??10382 /usr/sbin/mysqld
+</code></pre><p>Now your MySQL should be setup properly, there are some steps remaining like creating the user and setup the Database but for now we&rsquo;ll leave it and we&rsquo;ll do it when we setup our blog.</p>
+<h3 id="step---5--installing-php-">Step - 5 ( Installing PHP )<a href="#step---5--installing-php-" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Now we need to install <a href="https://www.php.net/">PHP</a>, We need PHP because our blog engine <a href="https://github.com/xenocrat/chyrp-lite">chyrp-lite</a> is written in this <a href="https://en.m.wikipedia.org/wiki/Programming_language">programming language</a></p>
+<p><strong>1. Install PHP</strong></p>
+<pre tabindex="0"><code>sudo apt update
+
+sudo apt install php libapache2-mod-php php-mysql php-mbstring 
+</code></pre><p>The above command includes three packages:-</p>
+<ul>
+<li>php - To Install PHP</li>
+<li>libapache2-mod-php - It is Used by apache to handle PHP files</li>
+<li>php-mysql - It is a PHP module that allows PHP to connect to MySQL</li>
+<li>php-mbstring - It is a PHP module that provides multibyte specific string functions that help you deal with multibyte encodings in PHP.</li>
+</ul>
+<h3 id="step---6--setting-up-our-chyrp-lite-blog-engine-">Step - 6 ( Setting up our Chyrp Lite Blog Engine )<a href="#step---6--setting-up-our-chyrp-lite-blog-engine-" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p><strong>1. Essential tools</strong></p>
+<pre tabindex="0"><code>sudo apt update
+
+sudo apt install curl wget
+</code></pre><p>The above command includes two tools:-</p>
+<ul>
+<li>curl - use to transfer data to and from a server.</li>
+<li>wget - use to download files.</li>
+</ul>
+<p><strong>2. Downloading the Chyrp Lite Blog Engine</strong></p>
+<p>We can download the latest version of Chyrp Lite Blog Engine, by the <a href="https://github.com/xenocrat/chyrp-lite/releases/tag/v2024.03">release page</a></p>
+<ul>
+<li>Downloading the engine using <code>wget</code></li>
+</ul>
+<pre tabindex="0"><code>wget https://github.com/xenocrat/chyrp-lite/archive/refs/tags/v2024.03.zip
+</code></pre><ul>
+<li>unzip the engine files</li>
+</ul>
+<pre tabindex="0"><code>unzip v2024.03.zip
+</code></pre><ul>
+<li>Moving Engine to the Web Server</li>
+</ul>
+<pre tabindex="0"><code>sudo mv chryp* /var/www/html/chyrp-lite
+</code></pre><ul>
+<li>Set proper permissions</li>
+</ul>
+<pre tabindex="0"><code>sudo chown -R www-data:www-data /var/www/html/chyrp-lite
+
+sudo chmod -R 755 /var/www/html/chyrp-lite
+</code></pre><p><strong>3. Database Configuration</strong></p>
+<ul>
+<li>Open MySQL commandline</li>
+</ul>
+<pre tabindex="0"><code>sudo mysql -u root -p
+</code></pre><ul>
+<li>Setup Database</li>
+</ul>
+<pre tabindex="0"><code>CREATE DATABASE chyrp_lite;
+
+CREATE USER &#39;chyrp_user&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;your_password&#39;;
+
+GRANT ALL PRIVILEGES ON chyrp_lite.* TO &#39;chyrp_user&#39;@&#39;localhost&#39;;
+
+FLUSH PRIVILEGES;
+
+EXIT;
+</code></pre><p>==Make sure to Replace &lsquo;your_password&rsquo; with a secure password==</p>
+<p><strong>4. Webserver Configuration</strong></p>
+<ul>
+<li>Open Apache2 configuration files</li>
+</ul>
+<pre tabindex="0"><code> cd /etc/apache2/sites-available
+</code></pre><p>So, when you go to this folder and list the available files and directories there using <code>ls</code> command you&rsquo;ll see,</p>
+<pre tabindex="0"><code>000-default.conf default-ssl.conf
+</code></pre><p>these are the files which are responsible for what you see when you visit your web server, by typing you IP address. By default it shows <code>/var/www/html</code> which is defined by this line <code>DocumentRoot /var/www/html</code> in <code>000-default.conf</code> and <code>default-ssl.conf</code> , but we need to change it to <code>DocumentRoot /var/www/html/chyrp-lite</code> in order to show our blog when we visit our IP address.</p>
+<ul>
+<li>Changing DocumentRoot in the config files</li>
+</ul>
+<pre tabindex="0"><code>sudo sed -i &#39;s|DocumentRoot /var/www/html|DocumentRoot /var/www/html/chyrp-lite|&#39; 000-default.conf
+
+sudo sed -i &#39;s|DocumentRoot /var/www/html|DocumentRoot /var/www/html/chyrp-lite|&#39; default-ssl.conf
+</code></pre><p>Now you are good to go, when you the browser, and go to <code>http://your_computer_ip/chyrp-lite/install.php</code> you&rsquo;ll see the following page:-</p>
+<p>!<img src="/images/Pasted%20image%2020250110111607.png" alt="Image Description"></p>
+<p>Here you need to enter the following things:-</p>
+<ul>
+<li>Adapter - Select MySQL here.</li>
+<li>Username - chyrp_user</li>
+<li>Password - (the password that you set for chyrp_user)</li>
+<li>Database - chyrp_lite</li>
+<li>Chyrp URL - http://your_computer_ip</li>
+<li>Site Name - your site name</li>
+<li>Description - your site descriptipn</li>
+</ul>
+<p>Admin Section</p>
+<ul>
+<li>Username - admin user name</li>
+<li>Password - admin password</li>
+<li>Email Address - admin email address</li>
+</ul>
+<p>Now click install me, after this the chyrp blog engine is successfully setup on your machine, you can check by visiting <code>http://your_server_ip_address</code></p>
+<p>So, the Blog has been setup now what&rsquo;s next ?, Currently our blog is accessible only to our LAN( Local Area Network), means that device which are connected with the same network as you, are only able to access this blog site, but we want that anyone from anywhere can access it,We need a Public IP to do so, and comes the role of <a href="https://www.cloudflare.com/products/tunnel/"> Cloudflare Tunnel</a> , We are going to use the Cloudflare Tunnel to expose our Local IP to the Globe ie. to Public IP.</p>
+<h3 id="step---7--setup-cloudflare-tunnel-">Step - 7 ( Setup CloudFlare Tunnel )<a href="#step---7--setup-cloudflare-tunnel-" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>There are a lot of videos out there on YouTube which which help you to setup CloudFlare Tunnel and it&rsquo;s your choice to choose from any of those videos but I&rsquo;m mentioning some videos here, which I prefer:-</p>
+<p>[<img src="https://img.youtube.com/vi/ey4u7OUAF3c/0.jpg" alt="EXPOSE your home network to the INTERNET!! (it&rsquo;s safe)">]
+<a href="https://youtu.be/ey4u7OUAF3c?si=Foe0S6i9PryxHZWa">EXPOSE your home network to the INTERNET!! (it&rsquo;s safe)</a></p>
+<p>[<img src="https://img.youtube.com/vi/CfjGCI6bQz4/0.jpg" alt="Easy Remote Access: How to setup CloudFlare Tunnels">]
+<a href="https://youtu.be/CfjGCI6bQz4?si=klfg5MDpMg59tosH">EASY Remote Access: How to setup CloudFlare Tunnels</a></p>
+<p><strong>1. Tunneling our Blog via CloudFlare Tunnel</strong></p>
+<p>!<img src="/images/Pasted%20image%2020250110111715.png" alt="Image Description"></p>
+<ul>
+<li>Subdomain - enter your <a href="https://en.wikipedia.org/wiki/Subdomain">subdomain</a></li>
+<li>Domain - select your domain</li>
+<li>Type - http://</li>
+<li>URL - localhost:80</li>
+</ul>
+<p><strong>2. Set Tunnel Domain URL in blog engine configuration</strong></p>
+<pre tabindex="0"><code>cd /var/www/html/chyrp-lite/includes
+
+sed -i &#39;s|http://you_ip_address|http://your_tunnel_domain|g&#39; config.json.php
+</code></pre><p>After setting this, you&rsquo;ll able to visit your blog by searching your domain ?, You&rsquo;ll see a page something like this.</p>
+<p>!<img src="/images/Pasted%20image%2020250110111730.png" alt="Image Description"></p>
+<hr>
+<h2 id="congratulations-you-have-successfully-set-up-your-blog-on-your-own-machine-this-is-a-proud-moment-so-take-a-moment-to-pause-and-applaud-yourself">Congratulations! You have successfully set up your blog on your own machine. This is a proud moment, so take a moment to pause and applaud yourself.<a href="#congratulations-you-have-successfully-set-up-your-blog-on-your-own-machine-this-is-a-proud-moment-so-take-a-moment-to-pause-and-applaud-yourself" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>Remember: This is just the beginning of your self-hosting journey. This blog is intended to be a great starting point, but your exploration shouldn&rsquo;t end here. There are countless other things you can self-host, such as backup systems, cloud storage, photo storage, and even language models. All you need is the curiosity to explore these possibilities. Best of luck on your self-hosting adventure!</p>
+</blockquote>
+<p>&ndash; <em><strong>Note: If you stuck somewhere, in the process try to google the problem with <code>How to fix (your_problem)</code> if it still doesn&rsquo;t fix, comment section of this blog is open, ask there someone from the community will be happy to help you, or you can <a href="mailto:itskanishkp.py@gmail.com">mail me</a> , I&rsquo;ll surely help you in fixing your problem.</strong></em> &ndash;</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Special thanks to my teacher <a href="https://www.gauravparashar.com/">Gaurav Parashar Sir</a> for donating me this <strong>Raspberry Pi Model B Rev 2</strong> and <a href="https://tushar5526.github.io/">Tushar Gupta Sir</a> for introducing me to self-hosting.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="/posts/the-social-media/" class="button inline next">
+        Why Social Media Scares Me.
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
