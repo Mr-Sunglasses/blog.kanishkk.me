@@ -1,6 +1,6 @@
 ---
 title: Why Social Media Scares Me.
-date: 2024-11-06
+date: 2024-05-06
 draft: false
 tags:
   - social-media

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal</title>
+    <link>//localhost:1313/tags/terminal/</link>
+    <description>Recent content on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Ghostty</title>
+      <link>//localhost:1313/posts/hello-ghostty/</link>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/hello-ghostty/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Why do we want intelligent terminals when there are so many stupid users?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;!&lt;img src=&#34;//localhost:1313/images/Screenshot%202025-01-24%20at%2011.35.14%20PM.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;From the start of my computer journey, I always be a fan of terminals, they always amaze me and when I use them, it always feels like a &lt;a href=&#34;https://knowyourmeme.com/memes/hackerman&#34;&gt;Hackerman&lt;/a&gt; , opening &lt;a href=&#34;https://en.wikipedia.org/wiki/Neofetch&#34;&gt;neofetch&lt;/a&gt; and &lt;a href=&#34;https://htop.dev/&#34;&gt;htop&lt;/a&gt; in front of my friend and cousins, fells really cool and they assume that I know some kind of advance computing and &lt;a href=&#34;https://www.fortinet.com/resources/cyberglossary/what-is-hacking#:~:text=A%20commonly%20used%20hacking%20definition,data%20theft%20by%20cyber%20criminals.&#34;&gt;hacking&lt;/a&gt;. I used a lot of &lt;a href=&#34;https://en.wikipedia.org/wiki/Terminal_emulator&#34;&gt;terminal emulator&amp;rsquo;s&lt;/a&gt; from the native one in MacOS and Linux to &lt;a href=&#34;https://gnome-terminator.org/&#34;&gt;terminator&lt;/a&gt;, &lt;a href=&#34;https://iterm2.com/&#34;&gt;iTerm2&lt;/a&gt;, &lt;a href=&#34;https://hyper.is/&#34;&gt;hyper&lt;/a&gt;, &lt;a href=&#34;https://www.warp.dev/&#34;&gt;warp&lt;/a&gt; and from these many year&amp;rsquo;s, hopping from one to another, I didn&amp;rsquo;t able to find one, that really fit for my work. Last year I discovered &lt;a href=&#34;https://zellij.dev/&#34;&gt;Zellij&lt;/a&gt; which is not originally a  &lt;a href=&#34;https://en.wikipedia.org/wiki/Terminal_emulator&#34;&gt;terminal emulator&amp;rsquo;s&lt;/a&gt; but a &lt;a href=&#34;https://www.ibm.com/docs/en/om-zvm-linux/4.2.0?topic=SSZJZF_4.2.0/com.ibm.omegamon_xezvm.doc_4.2/SC2728360059.html&#34;&gt;terminal workspace &lt;/a&gt; , I liked it a lot, and start using it. But it always felt overkilled for me, I didn&amp;rsquo;t use it&amp;rsquo;s 10% of the features in my daily workflow. And sometimes it&amp;rsquo;s feels too complex to use, plus configuring it is not my cup of tea 🫖.&lt;/p&gt;</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;Why do we want intelligent terminals when there are so many stupid users?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;!&lt;img src=&#34;//localhost:1313/images/Screenshot%202025-01-24%20at%2011.35.14%20PM.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;From the start of my computer journey, I always be a fan of terminals, they always amaze me and when I use them, it always feels like a &lt;a href=&#34;https://knowyourmeme.com/memes/hackerman&#34;&gt;Hackerman&lt;/a&gt; , opening &lt;a href=&#34;https://en.wikipedia.org/wiki/Neofetch&#34;&gt;neofetch&lt;/a&gt; and &lt;a href=&#34;https://htop.dev/&#34;&gt;htop&lt;/a&gt; in front of my friend and cousins, fells really cool and they assume that I know some kind of advance computing and &lt;a href=&#34;https://www.fortinet.com/resources/cyberglossary/what-is-hacking#:~:text=A%20commonly%20used%20hacking%20definition,data%20theft%20by%20cyber%20criminals.&#34;&gt;hacking&lt;/a&gt;. I used a lot of &lt;a href=&#34;https://en.wikipedia.org/wiki/Terminal_emulator&#34;&gt;terminal emulator&amp;rsquo;s&lt;/a&gt; from the native one in MacOS and Linux to &lt;a href=&#34;https://gnome-terminator.org/&#34;&gt;terminator&lt;/a&gt;, &lt;a href=&#34;https://iterm2.com/&#34;&gt;iTerm2&lt;/a&gt;, &lt;a href=&#34;https://hyper.is/&#34;&gt;hyper&lt;/a&gt;, &lt;a href=&#34;https://www.warp.dev/&#34;&gt;warp&lt;/a&gt; and from these many year&amp;rsquo;s, hopping from one to another, I didn&amp;rsquo;t able to find one, that really fit for my work. Last year I discovered &lt;a href=&#34;https://zellij.dev/&#34;&gt;Zellij&lt;/a&gt; which is not originally a  &lt;a href=&#34;https://en.wikipedia.org/wiki/Terminal_emulator&#34;&gt;terminal emulator&amp;rsquo;s&lt;/a&gt; but a &lt;a href=&#34;https://www.ibm.com/docs/en/om-zvm-linux/4.2.0?topic=SSZJZF_4.2.0/com.ibm.omegamon_xezvm.doc_4.2/SC2728360059.html&#34;&gt;terminal workspace &lt;/a&gt; , I liked it a lot, and start using it. But it always felt overkilled for me, I didn&amp;rsquo;t use it&amp;rsquo;s 10% of the features in my daily workflow. And sometimes it&amp;rsquo;s feels too complex to use, plus configuring it is not my cup of tea 🫖.&lt;/p&gt;
+&lt;p&gt;Then around December, I&amp;rsquo;m just browsing on YouTube, I came across the news that&lt;a href=&#34;https://github.com/ghostty-org/ghostty/releases/tag/v1.0.0&#34;&gt; Ghosttly had it&amp;rsquo;s public release &lt;/a&gt; and it is one of the most hype thing on Tech Youtube and X ( formerly knowns as Twitter ) , So I plan to try it, and it just feels like WOW 🤩, on the first try, I loved it and I really liked it&amp;rsquo;s &lt;a href=&#34;https://ghostty.org/docs/config#zero-configuration-philosophy&#34;&gt;Zero Configuration Philosophy&lt;/a&gt; and also it was a famous saying in the tech and Open-Source industry that, &lt;strong&gt;&amp;ldquo;You should never bet against &lt;a href=&#34;https://mitchellh.com/&#34;&gt;Mitchell Hashimoto &lt;/a&gt;.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;about-ghosttyhttpsghosttyorg&#34;&gt;About &lt;a href=&#34;https://ghostty.org/&#34;&gt;Ghostty&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Ghostty is a cutting-edge terminal emulator that has been making waves in the developer community since its release. Ghostty aims to provide a fast, feature-rich, and cross-platform terminal experience with a focus on native interface design&lt;/p&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt;: Ghostty boasts rapid performance and GPU-accelerated rendering, utilizing Metal on macOS and OpenGL on Linux for smooth and responsive operation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cross-Platform Compatibility&lt;/strong&gt;: The terminal runs on macOS and Linux, with Windows support planned for the future. It uses native UI components on each platform to provide an idiomatic experience.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Customization&lt;/strong&gt;: Ghostty offers extensive customization options, including themes, fonts, key bindings, and layouts. It ships with hundreds of built-in themes and supports user-created themes.&lt;/p&gt;
+&lt;p&gt;And the best thing about Ghostty is it &lt;code&gt;feels like a native emulator&lt;/code&gt; because of its dedication to delivering a truly native experience. Designed for macOS and Linux, it integrates seamlessly with your desktop environment. Ghostty uses platform-specific GUIs - &lt;a href=&#34;https://www.swift.org/&#34;&gt;Swift&lt;/a&gt; and &lt;a href=&#34;https://developer.apple.com/xcode/swiftui/&#34;&gt;SwiftUI&lt;/a&gt; on macOS, and &lt;a href=&#34;https://ziglang.org/&#34;&gt;Zig&lt;/a&gt; with &lt;a href=&#34;https://docs.gtk.org/gtk4/&#34;&gt;GTK4&lt;/a&gt; on Linux-powered by a shared core written in Zig, &amp;ldquo;&lt;a href=&#34;https://github.com/ghostty-org/ghostty&#34;&gt;libghostty&lt;/a&gt;.&amp;rdquo; It leverages native UI components, familiar keyboard/mouse shortcuts, and platform-specific features like Quick Look and secure input API on macOS to ensure it feels intuitive, polished, and perfectly aligned with each platform&amp;rsquo;s conventions.&lt;/p&gt;
+&lt;h2 id=&#34;my-ghostty-configuration&#34;&gt;My Ghostty configuration&lt;/h2&gt;
+&lt;p&gt;Enough about Ghostty itself-let&amp;rsquo;s dive into how I customized it to suit my workflow and supercharge my productivity in the terminal.&lt;/p&gt;
+&lt;p&gt;You can get more information about the &lt;a href=&#34;https://ghostty.org/docs/config&#34;&gt;configuration&lt;/a&gt; , &lt;a href=&#34;https://ghostty.org/docs/config/reference&#34;&gt;Option Refence&lt;/a&gt; and &lt;a href=&#34;https://ghostty.org/docs/config/keybind&#34;&gt;Keybindings&lt;/a&gt; for the &lt;a href=&#34;https://ghostty.org/docs&#34;&gt;docs&lt;/a&gt; of Ghostty.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: These configurations are tailored to fit my workflow and make things easier. You can customize them to suit your needs. My main goal is to show you &amp;ldquo;How to configure Ghostty.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;title = &amp;#34;anton&amp;#34;
+font-family = &amp;#34;FiraCode Nerd Font Mono Reg&amp;#34;
+theme = catppuccin-mocha
+font-size = 16
+background-opacity = 0.85
+background-blur-radius = 20
+mouse-hide-while-typing = true
+window-height = 30
+window-width = 128
+window-decoration = true
+
+background = #1e1e1e
+foreground = #d4d4d4
+
+keybind = ctrl+alt+z=close_surface
+keybind = ctrl+alt+w=close_window
+ 
+keybind = ctrl+alt+n=new_window
+keybind = ctrl+alt+t=new_tab
+
+keybind = ctrl+alt+r=new_split:right
+keybind = ctrl+alt+d=new_split:down
+
+keybind = ctrl+alt+]=reset_font_size
+keybind = ctrl+alt+[=clear_screen
+
+keybind = ctrl+alt+m=toggle_fullscreen
+keybind = global:ctrl+alt+f=toggle_quick_terminal
+keybind = ctrl+alt+v=toggle_visibility
+
+keybind = ctrl+alt+a&amp;gt;up=scroll_to_top
+keybind = ctrl+alt+a&amp;gt;down=scroll_to_bottom
+keybind = ctrl+alt+a&amp;gt;left=scroll_page_up
+keybind = ctrl+alt+a&amp;gt;right=scroll_page_down
+
+keybind = ctrl+alt+left=goto_split:left
+keybind = ctrl+alt+right=goto_split:right
+keybind = ctrl+alt+up=goto_split:top
+keybind = ctrl+alt+down=goto_split:bottom
+
+keybind = ctrl+alt+;=previous_tab
+keybind = ctrl+alt+&amp;#39;=next_tab
+
+keybind = ctrl+alt+q=quit
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now you got he &lt;code&gt;config&lt;/code&gt; for the ghostty, but now where to put it and how it works 🤔.&lt;/p&gt;
+&lt;p&gt;This is given in the Ghostty &lt;a href=&#34;https://ghostty.org/docs/config#zero-configuration-philosophy&#34;&gt;docs&lt;/a&gt; and I quote it&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The configuration file, &lt;code&gt;config&lt;/code&gt;, is loaded from these locations in the following order:&lt;/p&gt;
+&lt;p&gt;XDG configuration Path (all platforms):&lt;/p&gt;
+&lt;p&gt;- &lt;code&gt;$XDG_CONFIG_HOME/ghostty/config&lt;/code&gt;
+- if &lt;code&gt;XDG_CONFIG_HOME&lt;/code&gt; is not defined, it defaults to
+-  &lt;code&gt;$HOME/.config/ghostty/config&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So now let&amp;rsquo;s look what each line of the configuration does 😊&lt;/p&gt;
+&lt;p&gt;Before we start we need to learn two shortcuts for Ghostty&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In MacOS
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;CMD  + , &lt;/code&gt; - To Open the Configuration file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CMD + Shift + ,&lt;/code&gt; - To Reload Configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;In Linux
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Ctrl  + , &lt;/code&gt; - To Open the Configuration file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + Shift + ,&lt;/code&gt; - To Reload Configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;title = &amp;#34;anton&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line sets the title for the terminal emulator which shows on the title bar of the Ghostty window.&lt;/p&gt;
+&lt;p&gt;!&lt;img src=&#34;//localhost:1313/images/Screenshot%202025-01-25%20at%202.27.10%20AM.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;font-family = &amp;#34;FiraCode Nerd Font Mono Reg&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line help&amp;rsquo;s you to set the theme of the font-family of your Ghostty terminal, there is a lot of options you can choose for the font-family, you can see them using this &lt;code&gt;ghostty +list-fonts&lt;/code&gt; command.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;theme = catppuccin-mocha
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line help&amp;rsquo;s you to set the theme of your Ghostty terminal, there is a lot of options you can choose for the theme, you can see them using this &lt;code&gt;ghostty +list-themes&lt;/code&gt; command.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;font-size = 16
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line sets the size of the font used in the Ghostty terminal. A value of &lt;code&gt;16&lt;/code&gt; ensures that the text is comfortably readable. You can adjust this value to make the font smaller or larger based on your preference.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;background-opacity = 0.85
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line sets the transparency level of the Ghostty terminal&amp;rsquo;s background. A value of &lt;code&gt;1&lt;/code&gt; makes the background completely opaque, while lower values increase transparency.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;background-blur-radius = 20
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line controls how much the background is blurred when the Ghostty terminal is open. The higher the value, the more blurred the background becomes, giving a frosted glass effect.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mouse-hide-while-typing = true
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;When enabled, this option hides the mouse pointer while you type in the Ghostty terminal. It helps to minimize distractions and keeps the focus on your typing.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;window-height = 30
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line specifies the height of the Ghostty terminal window in percentage of the screen height. Here, &lt;code&gt;30&lt;/code&gt; means the window height will be 30% of your screen height.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;window-width = 128
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line sets the width of the Ghostty terminal in characters. A value of &lt;code&gt;128&lt;/code&gt; ensures the terminal accommodates up to 128 characters in a single row.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;window-decoration = true
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line enables or disables the window decorations, such as borders and the title bar. Setting it to &lt;code&gt;true&lt;/code&gt; means the decorations are visible.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;background = #1e1e1e
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line sets the background color of the Ghostty terminal. The color is defined in hexadecimal format, and &lt;code&gt;#1e1e1e&lt;/code&gt; represents a dark gray shade.&lt;/p&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;foreground = #d4d4d4
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This line sets the text color (foreground) of the terminal. The value &lt;code&gt;#d4d4d4&lt;/code&gt; represents a light gray shade, ensuring good contrast against the dark background.&lt;/p&gt;
+&lt;p&gt;These are all the part of the &lt;a href=&#34;https://ghostty.org/docs/config/reference&#34;&gt;Option Reference configuration&lt;/a&gt; and there are many options like this you can configure easily by reading the Documentation.&lt;/p&gt;
+&lt;h2 id=&#34;keybindings&#34;&gt;Keybindings&lt;/h2&gt;
+&lt;p&gt;This part of configuration is related to &lt;a href=&#34;https://www.reddit.com/r/swtor/comments/42rqxt/what_is_keybinding/&#34;&gt;keybindings&lt;/a&gt; ( which means A key, or &lt;a href=&#34;https://en.wiktionary.org/wiki/key#English&#34; title=&#34;key&#34;&gt;key&lt;/a&gt; combination, which, when pressed, causes something to happen ) and in this case we set many things to happen when we press a key.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: Here &lt;code&gt;ctrl+alt&lt;/code&gt; are &lt;a href=&#34;https://www.reddit.com/r/vim/comments/1bveqh1/what_is_a_leader_key/&#34;&gt;leader keys&lt;/a&gt;, which means that ( they are the special key that acts as a prefix to trigger a sequence of further keystrokes ) , you can choose you &lt;a href=&#34;https://www.reddit.com/r/vim/comments/1bveqh1/what_is_a_leader_key/&#34;&gt;leader key&lt;/a&gt;as you want&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;close-and-quit-operations&#34;&gt;Close and Quit Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+z=close_surface&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Closes the currently active surface (e.g., a floating terminal or dialog).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+w=close_window&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Closes the currently active terminal window.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+q=quit&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Exits the Ghostty terminal application completely.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;window-and-tab-management&#34;&gt;Window and Tab Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+n=new_window&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Opens a new terminal window.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+t=new_tab&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Opens a new tab in the current terminal window.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;splitting-panes&#34;&gt;Splitting Panes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+r=new_split:right&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Splits the current terminal pane vertically, creating a new pane on the right.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+d=new_split:down&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Splits the current terminal pane horizontally, creating a new pane below.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;font-and-screen-controls&#34;&gt;Font and Screen Controls&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+]=reset_font_size&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Resets the terminal font size to its default value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+[=clear_screen&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Clears the terminal screen, removing all previous output.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;fullscreen-and-visibility-toggles&#34;&gt;Fullscreen and Visibility Toggles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+m=toggle_fullscreen&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Toggles between fullscreen and windowed mode for the terminal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = global:ctrl+alt+f=toggle_quick_terminal&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Opens or closes the quick terminal overlay for running quick commands.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+v=toggle_visibility&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Toggles the visibility of the terminal window (minimizing or restoring it).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scrolling-operations&#34;&gt;Scrolling Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+a&amp;gt;up=scroll_to_top&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Scrolls to the top of the terminal output.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+a&amp;gt;down=scroll_to_bottom&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Scrolls to the bottom of the terminal output.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+a&amp;gt;left=scroll_page_up&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Scrolls up by one page in the terminal output.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+a&amp;gt;right=scroll_page_down&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Scrolls down by one page in the terminal output.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;navigating-between-splits&#34;&gt;Navigating Between Splits&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+left=goto_split:left&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Moves focus to the terminal pane to the left.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+right=goto_split:right&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Moves focus to the terminal pane to the right.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+up=goto_split:top&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Moves focus to the terminal pane above.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+down=goto_split:bottom&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Moves focus to the terminal pane below.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;tab-navigation&#34;&gt;Tab Navigation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+;=previous_tab&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Switches to the previous tab in the terminal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;keybind = ctrl+alt+&#39;=next_tab&lt;/code&gt;&lt;/strong&gt;&lt;br&gt;
+Switches to the next tab in the terminal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;These configuration make it easy to efficiently navigate and manage the Ghostty terminal. Customize them further if needed to suit your workflow!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;While there are plenty of terminal emulators out there, Ghostty strikes the perfect balance between performance, aesthetics, and functionality. If you’re someone who loves working in the terminal and wants a tool that is powerful yet simple, I’d highly recommend giving Ghostty a try.&lt;/p&gt;
+&lt;p&gt;Have you tried Ghostty yet? Or do you have a favorite terminal emulator? Let me know I would love to here your thoughts, you can share it to me via my &lt;a href=&#34;mailto:itskanishkp.py@gmail.com&#34;&gt;mail&lt;/a&gt; —I’d love to hear about your experience!&lt;/p&gt;
+&lt;h3 id=&#34;dont-forget-to-show-your-support-by-giving-a--to-the-ghostty-github-repositoryhttpsgithubcomghostty-orgghostty-your-stars-help-the-project-grow-and-encourage-further-development-and-gives-a-motivation-to-the-ghostty-team-&#34;&gt;Don&amp;rsquo;t forget to show your support by giving a ⭐️ to the &lt;a href=&#34;https://github.com/ghostty-org/ghostty&#34;&gt;Ghostty GitHub repository&lt;/a&gt;. Your stars help the project grow and encourage further development and gives a motivation to the Ghostty Team 👏!&lt;/h3&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
