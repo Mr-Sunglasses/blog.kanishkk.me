@@ -55,7 +55,7 @@ Each line in your crontab represents one scheduled task and follows this format:
 │ ┌───────────── hour (0 - 23)
 │ │ ┌───────────── day of the month (1 - 31)
 │ │ │ ┌───────────── month (1 - 12)
-│ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday)
+│ │ │ │ ┌───────────── day of the week (0 - 7) (Sunday (0 or 7) to Saturday)
 │ │ │ │ │
 │ │ │ │ │
 * * * * * command to execute
