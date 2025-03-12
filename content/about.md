@@ -22,5 +22,6 @@ I'm a dev 🤓 by ☀️ and an Open Source Contributor aka OpenSorcerer 🧙‍
 ### Get in Touch
 - 📧 [Email me](mailto:itskanishkp.py@gmail.com)  
 - 🌐 [Visit my website](https://kanishkk.me/)
+- 🌏 [Mastodon](https://fosstodon.org/@itskanishkp)
 
 ---
