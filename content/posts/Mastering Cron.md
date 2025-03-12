@@ -232,4 +232,4 @@ Start small, perhaps with a simple backup script or log rotation task, and gradu
 
 ---
 
-_What automation tasks will you tackle first with cron? Share your ideas or questions in the comments below!_
+_What automation tasks will you tackle first with cron? Share your ideas or questions to me at my [email](itskanishkp.py@gmail.com)!_
