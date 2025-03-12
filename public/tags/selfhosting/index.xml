@@ -14,8 +14,7 @@
       
       <guid>//localhost:1313/posts/selfhosted-101/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;People said I should accept the world. Bullshit! I don&amp;rsquo;t accept the world. - Richard M. Stallman&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;People said I should accept the world. Bullshit! I don&amp;rsquo;t accept the world. - Richard M. Stallman&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;!&lt;img src=&#34;//localhost:1313/images/stallman-thumb.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-self-hosting-manifesto&#34;&gt;The Self-Hosting Manifesto&lt;/h2&gt;
 &lt;p&gt;In a world of convenient cloud services and platform dependencies, we choose a different path:&lt;/p&gt;
@@ -30,8 +29,7 @@
 &lt;p&gt;&amp;ldquo;Self-hosting isn&amp;rsquo;t just about saving time;
 it&amp;rsquo;s about owning our digital destiny.&amp;rdquo;&lt;/p&gt;</description>
       <content>&lt;blockquote&gt;
-&lt;p&gt;People said I should accept the world. Bullshit! I don&amp;rsquo;t accept the world. - Richard M. Stallman&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;People said I should accept the world. Bullshit! I don&amp;rsquo;t accept the world. - Richard M. Stallman&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;!&lt;img src=&#34;//localhost:1313/images/stallman-thumb.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-self-hosting-manifesto&#34;&gt;The Self-Hosting Manifesto&lt;/h2&gt;
 &lt;p&gt;In a world of convenient cloud services and platform dependencies, we choose a different path:&lt;/p&gt;
@@ -44,8 +42,7 @@ it&amp;rsquo;s about owning our digital destiny.&amp;rdquo;&lt;/p&gt;</descripti
 &lt;h3 id=&#34;our-philosophy&#34;&gt;Our Philosophy&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Self-hosting isn&amp;rsquo;t just about saving time;
-it&amp;rsquo;s about owning our digital destiny.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
+it&amp;rsquo;s about owning our digital destiny.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&#34;our-toolbox&#34;&gt;Our Toolbox&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Computer:&lt;/strong&gt; That can Run Linux&lt;/li&gt;
@@ -253,8 +250,7 @@ sed -i &amp;#39;s|http://you_ip_address|http://your_tunnel_domain|g&amp;#39; con
 &lt;h2 id=&#34;congratulations-you-have-successfully-set-up-your-blog-on-your-own-machine-this-is-a-proud-moment-so-take-a-moment-to-pause-and-applaud-yourself&#34;&gt;Congratulations! You have successfully set up your blog on your own machine. This is a proud moment, so take a moment to pause and applaud yourself.&lt;/h2&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Remember: This is just the beginning of your self-hosting journey. This blog is intended to be a great starting point, but your exploration shouldn&amp;rsquo;t end here. There are countless other things you can self-host, such as backup systems, cloud storage, photo storage, and even language models. All you need is the curiosity to explore these possibilities. Best of luck on your self-hosting adventure!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Remember: This is just the beginning of your self-hosting journey. This blog is intended to be a great starting point, but your exploration shouldn&amp;rsquo;t end here. There are countless other things you can self-host, such as backup systems, cloud storage, photo storage, and even language models. All you need is the curiosity to explore these possibilities. Best of luck on your self-hosting adventure!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&amp;ndash; &lt;em&gt;&lt;strong&gt;Note: If you stuck somewhere, in the process try to google the problem with &lt;code&gt;How to fix (your_problem)&lt;/code&gt; if it still doesn&amp;rsquo;t fix, comment section of this blog is open, ask there someone from the community will be happy to help you, or you can &lt;a href=&#34;mailto:itskanishkp.py@gmail.com&#34;&gt;mail me&lt;/a&gt; , I&amp;rsquo;ll surely help you in fixing your problem.&lt;/strong&gt;&lt;/em&gt; &amp;ndash;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
