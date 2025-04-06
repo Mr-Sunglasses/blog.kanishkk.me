@@ -57,13 +57,13 @@ theme = "terminal"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Kanishk's blog"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
-      owner = ""
-      keywords = ""
-      copyright = ""
+      subtitle = "The blog of Kanishk Pachauri powered by Hugo"
+      owner = "Kanishk Pachauri"
+      keywords = "blog"
+      copyright = "Kanishk Pachauri"
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
