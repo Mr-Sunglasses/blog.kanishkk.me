@@ -23,6 +23,9 @@
     <loc>//localhost:1313/tags/society/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-04-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -62,6 +65,9 @@
     <loc>//localhost:1313/tags/terminal_emulator/</loc>
     <lastmod>2025-01-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/about/</loc>
+    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/posts/selfhosted-101/</loc>
     <lastmod>2024-11-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -86,9 +92,7 @@
     <loc>//localhost:1313/tags/self_reference/</loc>
     <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//localhost:1313/showcase/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url>
