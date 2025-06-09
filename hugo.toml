@@ -4,7 +4,7 @@ languageCode = "en-us"
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
 [pagination]
-  pagerSize = 10
+  pagerSize = 5
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -18,10 +18,10 @@ theme = "terminal"
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -51,13 +51,14 @@ theme = "terminal"
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
-  site = ""
+  creator = "itsKanishkP"
+  site = "blog.kanishkk.me"
+
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Kanishk's blog"
+    title = "/var/log"
 
     [languages.en.params]
       subtitle = "The blog of Kanishk Pachauri powered by Hugo"
@@ -75,7 +76,7 @@ theme = "terminal"
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "/var/log"
         logoHomeLink = "/"
 
       [languages.en.menu]
@@ -91,4 +92,9 @@ theme = "terminal"
           identifier = "tags"
           name = "Tags"
           url = "/tags"
+        [[languages.en.menu.main]]
+          identifier = "linux"
+          name = "Linux"
+          url = "/linux"
+
 

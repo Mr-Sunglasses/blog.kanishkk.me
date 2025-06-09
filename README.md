@@ -61,3 +61,15 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Theme](https://themes.gohugo.io/)
 
 Happy blogging!
+
+## Syncing it with Obsedian 🦅
+
+- [Script to sync the images](scripts/images.py)
+
+```
+# Alias for sync my obesidean blog files with hugo
+
+alias syncblog='rsync -av --delete "/Users/kanishkpachauri/kanishkvault/blog/" "/Users/kanishkpachauri/Documents/kanishkblog/content/posts/"'
+
+alias syncimage="python3 /Users/kanishkpachauri/Documents/kanishkblog/scripts/images.py"
+```

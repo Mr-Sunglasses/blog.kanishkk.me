@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kanishk&#39;s blog</title>
+    <title>/var/log</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on Kanishk&#39;s blog</description>
+    <description>Recent content on /var/log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -921,6 +921,150 @@ sed -i &amp;#39;s|http://you_ip_address|http://your_tunnel_domain|g&amp;#39; con
     
     <item>
       <title>Mastering Cron</title>
+      <link>//localhost:1313/linux/mastering-cron/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/linux/mastering-cron/</guid>
+      <description>&lt;h1 id=&#34;mastering-cron-the-silent-automation-powerhouse-on-your-linux-system&#34;&gt;Mastering Cron: The Silent Automation Powerhouse on Your Linux System&lt;/h1&gt;
+&lt;p&gt;Have you ever wished your computer could automatically handle repetitive tasks while you focus on more important work? Enter cron: the unsung hero of Linux system automation that has been quietly powering scheduled tasks since the 1970s.&lt;/p&gt;
+&lt;p&gt;In this guide, we&amp;rsquo;ll explore how cron can transform your workflow by automating backups, maintenance routines, data processing, and more—all without requiring you to lift a finger once it&amp;rsquo;s set up.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;mastering-cron-the-silent-automation-powerhouse-on-your-linux-system&#34;&gt;Mastering Cron: The Silent Automation Powerhouse on Your Linux System&lt;/h1&gt;
+&lt;p&gt;Have you ever wished your computer could automatically handle repetitive tasks while you focus on more important work? Enter cron: the unsung hero of Linux system automation that has been quietly powering scheduled tasks since the 1970s.&lt;/p&gt;
+&lt;p&gt;In this guide, we&amp;rsquo;ll explore how cron can transform your workflow by automating backups, maintenance routines, data processing, and more—all without requiring you to lift a finger once it&amp;rsquo;s set up.&lt;/p&gt;
+&lt;h2 id=&#34;what-exactly-is-cron&#34;&gt;What Exactly Is Cron?&lt;/h2&gt;
+&lt;p&gt;At its core, cron is a time-based job scheduler in Unix-like operating systems. Think of it as your computer&amp;rsquo;s automated task manager, quietly working in the background to run your scripts and commands at precisely scheduled times.&lt;/p&gt;
+&lt;p&gt;The name &amp;ldquo;cron&amp;rdquo; comes from the Greek word &amp;ldquo;chronos&amp;rdquo; meaning time—appropriate for a tool designed to execute commands based on time specifications.&lt;/p&gt;
+&lt;h2 id=&#34;how-cron-works-behind-the-scenes&#34;&gt;How Cron Works Behind the Scenes&lt;/h2&gt;
+&lt;p&gt;The cron system consists of two main components:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;The cron daemon&lt;/strong&gt;: A background service that wakes up every minute to check for scheduled tasks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The crontab (cron table)&lt;/strong&gt;: A configuration file where you define what commands should run and when&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When the daemon awakens, it scans all crontab files to determine if any tasks are scheduled for that exact minute. If it finds matching tasks, it executes them with the permissions of the user who created them.&lt;/p&gt;
+&lt;h2 id=&#34;getting-started-with-crontab&#34;&gt;Getting Started with Crontab&lt;/h2&gt;
+&lt;p&gt;Each user on a system typically has their own crontab file, plus there&amp;rsquo;s a system-wide crontab for administrative tasks.&lt;/p&gt;
+&lt;p&gt;To view your current scheduled tasks:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;crontab -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To create or edit your personal task schedule:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;crontab -e
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will open your default text editor where you can add, modify, or remove scheduled tasks.&lt;/p&gt;
+&lt;h2 id=&#34;mastering-the-crontab-syntax&#34;&gt;Mastering the Crontab Syntax&lt;/h2&gt;
+&lt;p&gt;Each line in your crontab represents one scheduled task and follows this format:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;┌───────────── minute (0 - 59)
+│ ┌───────────── hour (0 - 23)
+│ │ ┌───────────── day of the month (1 - 31)
+│ │ │ ┌───────────── month (1 - 12)
+│ │ │ │ ┌───────────── day of the week (0 - 7) (Sunday (0 or 7) to Saturday)
+│ │ │ │ │
+│ │ │ │ │
+* * * * * command to execute
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;At first glance, this format might seem intimidating, but it&amp;rsquo;s actually quite logical once you break it down.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;30 2 * * * /scripts/backup.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This simple line instructs cron to run the backup.sh script at 2:30 AM every day. The asterisks mean &amp;ldquo;every&amp;rdquo; for their respective fields, so in this case: every day of the month, every month, and every day of the week.&lt;/p&gt;
+&lt;h2 id=&#34;crons-special-characters-for-flexible-scheduling&#34;&gt;Cron&amp;rsquo;s Special Characters for Flexible Scheduling&lt;/h2&gt;
+&lt;p&gt;What makes cron truly powerful is its scheduling flexibility through special characters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Asterisk (&lt;code&gt;*&lt;/code&gt;)&lt;/strong&gt;: Matches any value (every minute, every hour, etc.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comma (&lt;code&gt;,&lt;/code&gt;)&lt;/strong&gt;: Lists multiple values (e.g., &lt;code&gt;1,3,5&lt;/code&gt; means 1, 3, and 5)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hyphen (&lt;code&gt;-&lt;/code&gt;)&lt;/strong&gt;: Defines ranges (e.g., &lt;code&gt;1-5&lt;/code&gt; means 1, 2, 3, 4, 5)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forward slash (&lt;code&gt;/&lt;/code&gt;)&lt;/strong&gt;: Specifies step values (e.g., &lt;code&gt;*/10&lt;/code&gt; means every 10th unit)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These can be combined to create sophisticated schedules without writing complex logic.&lt;/p&gt;
+&lt;h2 id=&#34;the-special-reboot-directive-and-time-shortcuts&#34;&gt;The Special @reboot Directive and Time Shortcuts&lt;/h2&gt;
+&lt;p&gt;Beyond the standard time specifications, cron supports several convenient shortcuts starting with &lt;code&gt;@&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;@reboot&lt;/strong&gt;: Run once after system startup&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;@yearly&lt;/strong&gt; or &lt;strong&gt;@annually&lt;/strong&gt;: Run once a year (midnight, January 1st)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;@monthly&lt;/strong&gt;: Run once a month (midnight, first day of the month)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;@weekly&lt;/strong&gt;: Run once a week (midnight on Sunday)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;@daily&lt;/strong&gt; or &lt;strong&gt;@midnight&lt;/strong&gt;: Run once a day at midnight&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;@hourly&lt;/strong&gt;: Run once an hour at the beginning of the hour&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;code&gt;@reboot&lt;/code&gt; directive is particularly useful for starting services that aren&amp;rsquo;t managed by your system&amp;rsquo;s service manager, setting up your environment after a restart, or starting persistent applications.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;@reboot /home/user/start-webapp.sh &amp;gt;&amp;gt; /home/user/webapp-boot.log 2&amp;gt;&amp;amp;1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This runs your web application startup script once after the system boots up, redirecting any output to a log file.&lt;/p&gt;
+&lt;h2 id=&#34;real-world-examples-to-inspire-your-automation&#34;&gt;Real-World Examples to Inspire Your Automation&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s explore some practical ways to use cron in everyday scenarios:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Automated Backups&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;0 2 * * * /path/to/backup-script.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This runs your backup script at 2 AM every day, ensuring your data is safely backed up while you sleep.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Clean Up Temporary Files&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;0 0 * * 0 find /tmp -type f -atime +7 -delete
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This removes files in the /tmp directory that haven&amp;rsquo;t been accessed in 7 days, running once a week on Sunday at midnight.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Website Monitoring&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;*/5 * * * * /scripts/check-website-status.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This checks your website status every 5 minutes, potentially notifying you if it goes down.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Daily Report Generation&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;0 7 * * 1-5 /scripts/generate-daily-report.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This generates reports at 7 AM on weekdays only (Monday through Friday).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Starting Applications After Reboot&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;@reboot sleep 30 &amp;amp;&amp;amp; /home/user/start-application.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This starts your application 30 seconds after system boot, giving other services time to initialize first.&lt;/p&gt;
+&lt;h2 id=&#34;best-practices-for-reliable-cron-jobs&#34;&gt;Best Practices for Reliable Cron Jobs&lt;/h2&gt;
+&lt;p&gt;After years of working with cron, I&amp;rsquo;ve developed these best practices that will save you countless troubleshooting hours:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Always redirect output to log files&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;0 2 * * * /path/to/script.sh &amp;gt;&amp;gt; /path/to/logfile.log 2&amp;gt;&amp;amp;1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This captures both standard output and errors, crucial for diagnosing issues with tasks that run while you&amp;rsquo;re not watching.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Set the correct PATH environment variable&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PATH=/usr/local/bin:/usr/bin:/bin
+0 2 * * * script.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Cron runs with a minimal environment, so specifying the PATH helps prevent mysterious failures.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Use absolute paths for everything&lt;/strong&gt; Always use full paths for both the commands you run and any files they access:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;0 2 * * * /usr/local/bin/python3 /home/user/scripts/process.py
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;4. Include error handling in your scripts&lt;/strong&gt; Your cron-executed scripts should include proper error handling, logging, and possibly even notification capabilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Test commands manually before scheduling them&lt;/strong&gt; Always run your commands manually with the same environment variables as cron before adding them to your crontab.&lt;/p&gt;
+&lt;h2 id=&#34;troubleshooting-common-cron-issues&#34;&gt;Troubleshooting Common Cron Issues&lt;/h2&gt;
+&lt;p&gt;Even with the best planning, cron jobs sometimes fail. Here&amp;rsquo;s how to diagnose common issues:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Job never runs:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Verify the cron service is running: &lt;code&gt;systemctl status cron&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Check cron logs: &lt;code&gt;grep cron /var/log/syslog&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Ensure time specifications are correct (remember, cron uses 24-hour time)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Permission problems:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure your script has execute permissions: &lt;code&gt;chmod +x script.sh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Check if your script needs sudo privileges (consider using the root crontab)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Environment variables missing:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cron runs with a minimal environment, so define any needed variables in your crontab or within your script&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Script works manually but fails in cron:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This often relates to paths or environment variables; add detailed logging to troubleshoot&lt;/li&gt;
+&lt;li&gt;Try using absolute paths for all commands and files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;when-to-use-cron-vs-systemd-timers&#34;&gt;When to Use Cron vs. Systemd Timers&lt;/h2&gt;
+&lt;p&gt;On modern Linux systems using systemd, you might wonder whether to use cron or systemd timers. Each has advantages:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cron is better for:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quick user-level tasks&lt;/li&gt;
+&lt;li&gt;Simpler setup for basic scheduling&lt;/li&gt;
+&lt;li&gt;Portable scripts that might run on different Unix systems&lt;/li&gt;
+&lt;li&gt;Systems without systemd&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Systemd timers excel at:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Complex dependency relationships between services&lt;/li&gt;
+&lt;li&gt;Precise timing (can trigger based on events, not just clock time)&lt;/li&gt;
+&lt;li&gt;Better logging and status tracking&lt;/li&gt;
+&lt;li&gt;Handling missed executions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For many users, cron remains the more straightforward choice for regular scheduled tasks.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Cron is a testament to the Unix philosophy: it does one thing—scheduling tasks—and does it extremely well. By mastering this seemingly simple tool, you unlock a world of automation possibilities that can save you time, ensure consistency, and let your computer work for you even when you&amp;rsquo;re away.&lt;/p&gt;
+&lt;p&gt;Whether you&amp;rsquo;re a system administrator managing servers, a developer automating builds, or just someone who wants their computer to handle repetitive tasks, cron offers a reliable, time-tested solution that continues to be relevant decades after its creation.&lt;/p&gt;
+&lt;p&gt;Start small, perhaps with a simple backup script or log rotation task, and gradually build your automation suite as you grow more comfortable with cron&amp;rsquo;s capabilities. Before long, you&amp;rsquo;ll wonder how you ever managed without it.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;What automation tasks will you tackle first with cron? Share your ideas or questions to me at my &lt;a href=&#34;itskanishkp.py@gmail.com&#34;&gt;email&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Mastering Cron</title>
       <link>//localhost:1313/posts/mastering-cron/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -1069,8 +1213,32 @@ sed -i &amp;#39;s|http://you_ip_address|http://your_tunnel_domain|g&amp;#39; con
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/showcase/</guid>
-      <description>&lt;h1 id=&#34;this-page-is-under-construction&#34;&gt;This page is under construction.&lt;/h1&gt;</description>
-      <content>&lt;h1 id=&#34;this-page-is-under-construction&#34;&gt;This page is under construction.&lt;/h1&gt;
+      <description>&lt;p&gt;Here are some of my amazing blog posts that showcase various topics and technologies:&lt;/p&gt;
+&lt;h2 id=&#34;project-showcase&#34;&gt;Project Showcase&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mr-Sunglasses/bitssh&#34;&gt;bitssh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/FOSS-Community/paste.py&#34;&gt;paste.py&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;knowledgebase-tags&#34;&gt;Knowledgebase Tags&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.kanishkk.me/tags/python/&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.kanishkk.me/tags/linux/&#34;&gt;linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.kanishkk.me/tags/networking/&#34;&gt;networking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.kanishkk.me/tags/docker/&#34;&gt;docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content>&lt;p&gt;Here are some of my amazing blog posts that showcase various topics and technologies:&lt;/p&gt;
+&lt;h2 id=&#34;project-showcase&#34;&gt;Project Showcase&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Mr-Sunglasses/bitssh&#34;&gt;bitssh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/FOSS-Community/paste.py&#34;&gt;paste.py&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;knowledgebase-tags&#34;&gt;Knowledgebase Tags&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.kanishkk.me/tags/python/&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.kanishkk.me/tags/linux/&#34;&gt;linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.kanishkk.me/tags/networking/&#34;&gt;networking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.kanishkk.me/tags/docker/&#34;&gt;docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
