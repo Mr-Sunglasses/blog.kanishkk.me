@@ -1,4 +1,4 @@
-build:
+build: hugo.toml
 	hugo
 
 serve: build

@@ -1,12 +1,23 @@
 import os
 import re
+import sys
 import shutil
+import platform
+from pathlib import Path
 
-# Paths
-posts_dir = "/Users/kanishkpachauri/Documents/kanishkblog/content/posts/"
-attachments_dir = "/Users/kanishkpachauri/kanishkvault/attachments/"
-static_images_dir = "/Users/kanishkpachauri/Documents/kanishkblog/static/images/"
-
+# Usually my linux system changes, darwin remains same
+if platform.system() == "Linux":
+    posts_dir = str(Path("~/Projects/blog.kanishkk.me/content/posts/").expanduser())
+    attachments_dir = str(Path("~/kanishkvault/attachments/").expanduser())
+    static_images_dir = str(Path("~/Projects/blog.kanishkk.me/static/images/").expanduser())
+elif platform.system() == "Darwin":
+    # Paths
+    posts_dir = "/Users/kanishkpachauri/Documents/kanishkblog/content/posts/"
+    attachments_dir = "/Users/kanishkpachauri/kanishkvault/attachments/"
+    static_images_dir = "/Users/kanishkpachauri/Documents/kanishkblog/static/images/"
+else:
+    print("Unsupported operating system. Exiting.")
+    sys.exit(1)
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
     if filename.endswith(".md"):

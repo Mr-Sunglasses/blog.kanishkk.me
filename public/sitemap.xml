@@ -98,9 +98,10 @@
     <loc>//localhost:1313/tags/self_reference/</loc>
     <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/showcase/</loc>
+    <loc>//localhost:1313/tags/self-reference/</loc>
+    <lastmod>2024-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/beginner/</loc>
+    <loc>//localhost:1313/showcase/</loc>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url>

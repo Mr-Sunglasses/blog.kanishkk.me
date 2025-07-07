@@ -4,218 +4,156 @@
     <title>Tags on /var/log</title>
     <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on /var/log</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aboutme</title>
       <link>//localhost:1313/tags/aboutme/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/aboutme/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Contactme</title>
       <link>//localhost:1313/tags/contactme/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/contactme/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Freedom</title>
       <link>//localhost:1313/tags/freedom/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/freedom/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Linux</title>
       <link>//localhost:1313/tags/linux/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/linux/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Privacy</title>
       <link>//localhost:1313/tags/privacy/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/privacy/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Society</title>
       <link>//localhost:1313/tags/society/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/society/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Equality_for_all</title>
       <link>//localhost:1313/tags/equality_for_all/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/equality_for_all/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Global_unity</title>
       <link>//localhost:1313/tags/global_unity/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/global_unity/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Harmony</title>
       <link>//localhost:1313/tags/harmony/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/harmony/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Love</title>
       <link>//localhost:1313/tags/love/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/love/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Nature</title>
       <link>//localhost:1313/tags/nature/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/nature/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Sustainability</title>
       <link>//localhost:1313/tags/sustainability/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/sustainability/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Well_being</title>
       <link>//localhost:1313/tags/well_being/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/well_being/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>World_peace</title>
       <link>//localhost:1313/tags/world_peace/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/world_peace/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Terminal</title>
       <link>//localhost:1313/tags/terminal/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/terminal/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Terminal_emulator</title>
       <link>//localhost:1313/tags/terminal_emulator/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/terminal_emulator/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Selfhosting</title>
       <link>//localhost:1313/tags/selfhosting/</link>
       <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/selfhosting/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Social-Media</title>
       <link>//localhost:1313/tags/social-media/</link>
       <pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/social-media/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Cron</title>
       <link>//localhost:1313/tags/cron/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/cron/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
       <title>Self_reference</title>
       <link>//localhost:1313/tags/self_reference/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>//localhost:1313/tags/self_reference/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
-      <title>Beginner</title>
-      <link>//localhost:1313/tags/beginner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tags/beginner/</guid>
+      <title>Self-Reference</title>
+      <link>//localhost:1313/tags/self-reference/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/self-reference/</guid>
       <description></description>
-      <content></content>
     </item>
-    
   </channel>
 </rss>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>_index on /var/log</title>
-    <link>//localhost:1313/linux/</link>
-    <description>Recent content in _index on /var/log</description>
+    <title>Self-Reference on /var/log</title>
+    <link>//localhost:1313/tags/self-reference/</link>
+    <description>Recent content in Self-Reference on /var/log</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/self-reference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering Cron</title>
-      <link>//localhost:1313/linux/mastering-cron/</link>
+      <link>//localhost:1313/posts/mastering-cron/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/linux/mastering-cron/</guid>
+      <guid>//localhost:1313/posts/mastering-cron/</guid>
       <description>&lt;h1 id=&#34;mastering-cron-the-silent-automation-powerhouse-on-your-linux-system&#34;&gt;Mastering Cron: The Silent Automation Powerhouse on Your Linux System&lt;/h1&gt;&#xA;&lt;p&gt;Have you ever wished your computer could automatically handle repetitive tasks while you focus on more important work? Enter cron: the unsung hero of Linux system automation that has been quietly powering scheduled tasks since the 1970s.&lt;/p&gt;&#xA;&lt;p&gt;In this guide, we&amp;rsquo;ll explore how cron can transform your workflow by automating backups, maintenance routines, data processing, and more—all without requiring you to lift a finger once it&amp;rsquo;s set up.&lt;/p&gt;</description>
     </item>
   </channel>
